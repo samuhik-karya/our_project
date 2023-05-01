@@ -15,3 +15,12 @@ code {
 .nav-link:hover {
   color: #d1961f !important;
 }
+
+.text_decoration{
+  color: white;
+  text-decoration: none;
+}
+.text_decoration:hover{
+  color: brown;
+  text-decoration: underline;
+}
