@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.text_decoration{
+  color: white;
+  text-decoration: none;
+}
+.text_decoration:hover{
+  color: brown;
+  text-decoration: underline;
+}
