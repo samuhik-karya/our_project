@@ -29,7 +29,7 @@ const SearchRoomSection = () => {
         <div className='container-flex'>
             <h1 className='text-center pt-5 pb-2' style={main_text}>Search Room</h1>
             <div className="container" id='line_under_text' />
-            <div className="container d-flex flex-row justify-content-around flex-wrap align-items-center p-5">
+            <div className="container options d-flex flex-row justify-content-around flex-wrap align-items-center p-5">
                 <div className='select-option'>
                     <label className="py-3" htmlFor="roomtype">Rooms Type</label><br></br>
                     <select className="custom-select custom-select-lg" id='select_room_type'>

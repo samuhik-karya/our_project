@@ -56,10 +56,11 @@ img:hover {
 .roombotton {
     display: none;
     position: absolute;
-    top: 42%;
-    left: 30%;
-    right: 30%;
-    bottom: 42%;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45px;
+    width: 120px;
 }
 
 .card:hover>img {
