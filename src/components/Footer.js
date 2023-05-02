@@ -6,13 +6,12 @@ const Footer = () => {
         padding: "10px",
         paddingBottom: "40px",
         textAlign: "center"
-    }
-    
+    } 
     return (
         <>
             <div className="container-flex" style={{ backgroundColor: "#191e24" }}>
                 <div className="container d-flex flex-column align-items-center">
-                    <div className='footer-text-1' style={{ color: "White", padding: "15px", fontSize: "36px", fontWeight: "600", textAlign: "center"}}>
+                    <div className='footer-text-1' style={{ color: "White", padding: "25px", fontSize: "36px", fontWeight: "600", textAlign: "center",paddingTop : "30px"}}>
                         Beach Resort | Hotel Room Book
                     </div>
                     <div className='footer-text-2' style={footer_text_subheading}>
@@ -23,5 +22,4 @@ const Footer = () => {
         </>
     )
 }
-
 export default Footer
