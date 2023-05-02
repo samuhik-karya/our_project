@@ -1,0 +1,84 @@
+#line_under_text{
+    background-color: rgb(173, 140, 52);
+    width: 120px;
+    height: 5px;
+    margin-top: 12px;
+  }
+  
+  
+  #card{
+    box-shadow: 3px 15px 5px rgba(14, 12, 12,0.5);
+    border: none;
+    height: 200px;
+    width: 370px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20%;
+    background-color: #0a0a0a;
+  }
+  .text_about_room{
+    bottom: 100px;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding-left: 37%;
+    bottom: 40px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #image:hover{
+    background-color: #0a0a0a !important;
+    opacity: 0.4;
+  }
+  .text_about_price{
+    display: block;
+    background-color: rgba(20, 18, 18,0.8);
+    color: aliceblue;
+    margin-right: 84%;
+    padding-inline-start: 5px;
+    font-size: 15px;
+    bottom: 251px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom-right-radius: 15px;
+  }
+  .text{
+    font-size: 10px;
+  }
+  #card:hover  {
+    box-shadow: 5px 18px 5px rgba(14, 12, 12,0.5);
+  
+  }
+  #card:hover > .text_about_price {
+    display: none;
+  }
+  
+  #card:hover > .roombotton {
+    display: block;
+  }
+  
+  .roombotton{
+    display: none;
+    position: relative;
+    bottom: 200px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+  }
+  
+  #card:hover > #image {
+    background-color: #0a0a0a !important;
+    opacity: 0.4;
+  }
+  
+  .roombotton:hover {
+    color: #bd810b;
+    background: transparent !important;
+    border: 3px solid #9a6a0b !important;
+  }
+  

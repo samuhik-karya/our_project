@@ -19,14 +19,19 @@ const FeaturedRooms = () => {
                 Features Room
             </div>
             <div className="container" id='line_under_text'>
-                
             </div>
-
-            <div className='container ' id='cards'>
-
-                <FeaturedRoomsCard image={doubledeluxe} price='$ 400' text="per night" message='Double Deluxe' />
-                <FeaturedRoomsCard image={familydeluxe} price='$ 600' text="per night" message='Family Deluxe' />
-                <FeaturedRoomsCard image={presidentail} price='$ 800' text="per night" message='Presidential' />
+            <div class="container d-flex flex-column justify-content-center" id="cards">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-md-4">
+                        <FeaturedRoomsCard image={doubledeluxe} price="$ 400" text="per night" message="Double Deluxe" />
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <FeaturedRoomsCard image={familydeluxe} price="$ 600" text="per night" message="Family Deluxe" />
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <FeaturedRoomsCard image={presidentail} price="$ 800" text="per night" message="Presidential" />
+                    </div>
+                </div>
             </div>
         </>
     )

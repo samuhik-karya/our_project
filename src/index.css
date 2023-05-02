@@ -45,8 +45,8 @@ code {
   border: none;
   height: 200px;
   width: 370px;
-  margin-left: 40px;
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-left: 20px;
   margin-bottom: 20%;
   background-color: #0a0a0a;
 }
@@ -83,8 +83,11 @@ code {
 .text{
   font-size: 10px;
 }
+#card:hover  {
+  box-shadow: 5px 18px 5px rgba(14, 12, 12,0.5);
+
+}
 #card:hover > .text_about_price {
-  box-shadow: 5px 28px 5px rgba(14, 12, 12,0.5);
   display: none;
 }
 
@@ -106,16 +109,7 @@ code {
   background-color: #0a0a0a !important;
   opacity: 0.4;
 }
-#cards{
-  display: inline-flex;
-  margin-left: 8%;
-}
-@media (max-width:768px) {
-  #cards{
-    display: list-item;
-    margin-left: 0%;
-  }
-}
+
 .roombotton:hover {
   color: #bd810b;
   background: transparent !important;
