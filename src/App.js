@@ -1,8 +1,8 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './components/HomePage';
 import { Routes, Route } from 'react-router-dom';
-import Room from './components/Room';
+import Room from './components/RoomPage';
 
 function App() {
   return (
