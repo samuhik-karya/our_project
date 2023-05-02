@@ -1,13 +1,18 @@
-import './App.css';
-import homeMain from "./assets/homeMain.jpg";
 import Header from './components/Header';
-import PageHeader from './components/PageHeader';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import { Routes, Route } from 'react-router-dom';
+import Room from './components/Room';
 
 function App() {
   return (
     <>
       <Header />
-      <PageHeader image={homeMain} title='Luxurious Rooms' message='Deluxe Rooms Starting At $299' buttonTitle='Our Rooms'/>
+      <Routes>
+        <Route exact element={<Home />} path="/" />
+        <Route exact element={<Room />} path="/Rooms" />
+      </Routes>
+      <Footer />
     </>
   );
 }

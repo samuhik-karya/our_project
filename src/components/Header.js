@@ -16,7 +16,7 @@ export default function Header() {
                     <div class="collapse navbar-collapse px-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item px-2">
-                                <Link class="nav-link text-dark fw-semibold" aria-current="page" to="/">Home</Link>
+                                <Link class="nav-link text-dark fw-semibold" to="/">Home</Link>
                             </li>
                             <li class="nav-item px-2">
                                 <Link class="nav-link text-dark fw-semibold" to="/Rooms">Rooms</Link>
