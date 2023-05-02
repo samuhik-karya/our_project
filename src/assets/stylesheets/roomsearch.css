@@ -1,75 +1,82 @@
-.all_items{
+.all_items {
     margin-top: 50px;
     margin-left: 10%;
 }
-.select-option{
+
+.select-option {
     padding-right: 30px;
     margin-right: 20px;
 }
-#select_room_type{
+
+#select_room_type {
     width: 210px;
     border: 1px solid black;
     background-color: white;
     margin-top: 6px;
 }
-#select_room_type:hover{
+
+#select_room_type:hover {
     border: 2px solid black;
 }
-#select_guest_number{
+
+#select_guest_number {
     width: 210px;
     border: 1px solid black;
     background-color: white;
     margin-top: 6px;
 }
-#select_guest_number:hover{
+
+#select_guest_number:hover {
     border: 2px solid black;
 }
-.range_select{
-    margin-right: 20px;
-    margin-left: 30px;
-}
-#range_id{
+
+
+#range_id {
     margin-bottom: 7px;
 }
-#controlrange{
+
+#controlrange {
     height: 10px;
     width: 200px;
 }
-#min_size{
+
+#min_size {
     width: 100px;
     border: 1px solid black;
     background-color: white;
-    margin-top: 6px; 
+    margin-top: 6px;
     border-radius: 3px;
     margin-right: 10px;
 }
-#min_size:hover{
+
+#min_size:hover {
     border: 2px solid black;
 }
-#max_size{
+
+#max_size {
     width: 100px;
     border: 1px solid black;
     background-color: white;
-    margin-top: 6px; 
+    margin-top: 6px;
     border-radius: 3px;
     margin-right: 10px;
 }
-#max_size:hover{
+
+#max_size:hover {
     border: 2px solid black;
 }
-#last_option{
-    margin-top: 5px;
-    margin-left: 40px;
-}
-label{
+
+label {
     font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 3px;
     font-style: normal;
 }
-#BreakFast{
+
+#BreakFast {
     border: 1px solid rgba(79, 75, 75, 0.5);
 }
-#Pets{
+
+#Pets {
     border: 1px solid rgba(79, 75, 75, 0.5);
 }
