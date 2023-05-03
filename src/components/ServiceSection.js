@@ -7,7 +7,7 @@ export default function ServiceSection() {
             <div className='container d-flex justify-content-center align-items-center flex-column'>
                 <h1 style={{ letterSpacing: "3px" }}>Services</h1>
                 <hr className='border-0' style={{ backgroundColor: "#af9a7d", width: "10%", height: "6px", opacity: "1" }} />
-                <div className='d-flex justify-content-center align-items-center p-3'>
+                <div className='d-flex justify-content-center flex-wrap align-items-center p-3'>
                     
                     <ServiceComponent
                         title="Free Cocktails"
